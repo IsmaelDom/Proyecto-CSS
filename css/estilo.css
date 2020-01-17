@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Footlight MT Light';
+}
+
 /*Lado lateral*/
 .lateral{
-  background-color: rgba(20, 170, 29, 0.92);
+  background-color: rgba(46, 157, 7, 0.97);
   bottom: 0;
   left: 0;
   padding: 1em;
@@ -16,10 +20,10 @@
 /*     Perfil     */
 .perfil_min{
   border-radius: 50%;
-  height: 50px;
+  height: 60px;
   overflow: hidden;
   margin: 0;
-  width: 50px;
+  width: 60px;
 }
 
 /*   Foto perfil  */
@@ -28,10 +32,10 @@
 }
 
 .nombre{
-  color: rgb(208, 230, 230);
+  color: rgba(255, 255, 255, 0.97);
   font-size: 25px;
   margin-left: .5em;
-  width: 250px;
+  width: 200px;
 }
 
 .nombre, .perfil_min{
@@ -56,11 +60,51 @@
 }
 
 .habilidad{
-  background-color: rgb(16, 140, 167);
+  background-color: rgb(19, 102, 107);
   color: rgb(255, 255, 255);
   display: inline-block;
   font-size: 14px;
   text-transform: uppercase;
-  padding: .5em;
+  margin-bottom: 8px;
   margin-left: 8px;
+  padding: .5em;
+}
+
+.habilidad_perfil{
+  background-color: rgb(10, 125, 150);
+  border-color: rgba(180, 186, 199, 0.89);
+  border-style: ridge;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  padding: .5em;
+}
+
+/*      Proyectos       */
+.proyectos{
+  margin-left: 350px;
+  padding: 1.5em;
+  display: table;
+}
+
+.proyecto{
+  display: table-cell;
+  padding: 1em;
+  width: 50%;
+}
+
+.proyecto_imagen{
+  width: 100%;
+}
+
+.proyecto_titulo{
+  color: rgb(19, 102, 107);
+  font-size: 20px;
+}
+
+.proyecto_desc{
+  color: rgb(9, 53, 71);
 }
